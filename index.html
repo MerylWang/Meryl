@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
     <title>Meryl</title>
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/icon" href="assets/images/favicon.ico"/>
     <!-- Font Awesome -->
-    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <!-- Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -18,7 +18,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-    <!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet"> -->
     <!-- Slick slider -->
     <link href="assets/css/slick.css" rel="stylesheet">
     <!-- Gallery Lightbox -->
@@ -40,35 +39,15 @@
   	<!-- Start Header -->
 	<header id="mu-header" class="" role="banner">
 		<div class="container">
-			<nav class="navbar navbar-default mu-navbar">
-		  <div class="container-fluid">
-		    <!-- Brand and toggle get grouped for better mobile display -->
-		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
 
-		      <!-- Text Logo -->
-		      <a class="navbar-brand" href="#">Meryl</a>
-		    </div>
-
-		    <!-- Collect the nav links, forms, and other content for toggling -->
-		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		      	<ul class="nav navbar-nav mu-menu navbar-right">
-
-			        <li><a href="#">HOME</a></li>
-			        <li><a href="#mu-about">ABOUT</a></li>
-              <li><a href="#mu-portfolio">PROJECTS</a></li>
-              <!-- <li><a href="#">MORE</a></li> -->
-		            <li><a href="#mu-contact">CONTACT</a></li>
-		      	</ul>
-		    </div><!-- /.navbar-collapse -->
-		  </div><!-- /.container-fluid -->
-		</nav>
-		</div>
+      <nav class="nav navbar-default mu-navbar">
+        <a class="navbar-brand" href="#">Meryl</a>
+        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="#mu-about">About</a>
+        <a class="nav-link" href="#mu-portfolio">Projects</a>
+        <a class="nav-link" href="#mu-contact">Contact</a>
+      </nav>
+    </div>
 	</header>
 	<!-- End Header -->
 
@@ -122,7 +101,7 @@
   				<div class="mu-about-header">
   					<h2 class="mu-heading-title">ABOUT ME</h2>
   					<span class="mu-header-dot"></span>
-            <!-- TODO: rewrite the spiel -->
+            <!-- TODO: update the spiel -->
   					<p>Hi, I'm Meryl. I am interested in <strong>Software</strong>, <strong>Web Dev</strong>, and <strong>Full Stack</strong>.<br>
                At MIT, I’ve taken the chance to explore fun subjects such as Software Design, Data Visualization, Multimodal User Interfaces, Machine Learning, Computational Photography, etc.<br>
                I'm currently involved in <strong>MIT Code for Good</strong> & Asian Dance Team.</p>
@@ -140,28 +119,32 @@
   							<div class="mu-about-content-right">
 
                   <!-- Start Skills Section -->
-                  <!-- TODO: fill in skills section-->
+                  <!-- TODO: update skills -->
                   <div class="mu-skill-progress-bar">
                     <h3>Programming Languages & Frameworks</h3>
                       <span>Programming Languages</span>
-                        <img class="navbarIcon contentIcon" src="assets/images/logos/python.png" alt="Python" data-toggle="tooltip" data-placement="bottom" title="Python" onclick="window.open('https://www.python.org/');">
-                        <img class="navbarIcon contentIcon" src="assets/images/logos/java.png" alt="Java" data-toggle="tooltip" data-placement="bottom" title="Java" onclick="window.open('https://www.java.com/en/');">
-                        <img class="navbarIcon contentIcon" src="assets/images/logos/cpp.png" alt="C++" data-toggle="tooltip" data-placement="bottom" title="C++" onclick="window.open('http://www.cplusplus.com/');">
-                        <img class="navbarIcon contentIcon" src="assets/images/logos/ruby.png" alt="Ruby" data-toggle="tooltip" data-placement="bottom" title="Ruby" onclick="window.open('https://www.ruby-lang.org/en/');">
+
+                        <img class="contentIcon" src="assets/images/logos/python.png" alt="Python" data-toggle="tooltip" data-placement="bottom" title="Python" onclick="window.open('https://www.python.org/');">
+
+
+
+                        <img class="contentIcon" src="assets/images/logos/java.png" alt="Java" data-toggle="tooltip" data-placement="bottom" title="Java" onclick="window.open('https://www.java.com/en/');">
+                        <img class="contentIcon" src="assets/images/logos/cpp.png" alt="C++" data-toggle="tooltip" data-placement="bottom" title="C++" onclick="window.open('http://www.cplusplus.com/');">
+                        <img class="contentIcon" src="assets/images/logos/ruby.png" alt="Ruby" data-toggle="tooltip" data-placement="bottom" title="Ruby" onclick="window.open('https://www.ruby-lang.org/en/');">
                       <span>Web Dev</span>
-                        <img class="navbarIcon contentIcon" src="assets/images/logos/javascript.png" alt="JavaScript" data-toggle="tooltip" data-placement="bottom" title="JavaScript" onclick="window.open('https://www.javascript.com/');">
-                        <img class="navbarIcon contentIcon" src="assets/images/logos/vue.png" alt="Vue.js" data-toggle="tooltip" data-placement="bottom" title="Vue.js" onclick="window.open('https://vuejs.org/');">
-                        <img class="navbarIcon contentIcon" src="assets/images/logos/node.png" alt="Node.js" data-toggle="tooltip" data-placement="bottom" title="Node.JS" onclick="window.open('https://nodejs.org/en/');">
-                        <img class="navbarIcon contentIcon" src="assets/images/logos/selenium.png" alt="Selenium" data-toggle="tooltip" data-placement="bottom" title="Selenium" onclick="window.open('https://selenium-python.readthedocs.io/');">
+                        <img class="contentIcon" src="assets/images/logos/javascript.png" alt="JavaScript" data-toggle="tooltip" data-placement="bottom" title="JavaScript" onclick="window.open('https://www.javascript.com/');">
+                        <img class="contentIcon" src="assets/images/logos/vue.png" alt="Vue.js" data-toggle="tooltip" data-placement="bottom" title="Vue.js" onclick="window.open('https://vuejs.org/');">
+                        <img class="contentIcon" src="assets/images/logos/node.png" alt="Node.js" data-toggle="tooltip" data-placement="bottom" title="Node.JS" onclick="window.open('https://nodejs.org/en/');">
+                        <img class="contentIcon" src="assets/images/logos/selenium.png" alt="Selenium" data-toggle="tooltip" data-placement="bottom" title="Selenium" onclick="window.open('https://selenium-python.readthedocs.io/');">
 
 
                       <span>Other Technologies</span>
-                        <img class="navbarIcon contentIcon" src="assets/images/logos/mongo.png" alt="MongoDB" data-toggle="tooltip" data-placement="bottom" title="MongoDB" onclick="window.open('https://www.mongodb.com/');">
+                        <img class="contentIcon" src="assets/images/logos/mongo.png" alt="MongoDB" data-toggle="tooltip" data-placement="bottom" title="MongoDB" onclick="window.open('https://www.mongodb.com/');">
 
                     <h3>Languages</h3>
-                      <img class="navbarIcon contentIcon" src="assets/images/logos/english.png" alt="English" data-toggle="tooltip" data-placement="bottom" title="English">
-                      <img class="navbarIcon contentIcon" src="assets/images/logos/chinese.png" alt="Mandarin" data-toggle="tooltip" data-placement="bottom" title="Mandarin">
-                      <img class="navbarIcon contentIcon" src="assets/images/logos/korean.png" alt="Korean" data-toggle="tooltip" data-placement="bottom" title="Korean">
+                      <img class="contentIcon" src="assets/images/logos/english.png" alt="English" data-toggle="tooltip" data-placement="bottom" title="English">
+                      <img class="contentIcon" src="assets/images/logos/chinese.png" alt="Mandarin" data-toggle="tooltip" data-placement="bottom" title="Mandarin">
+                      <img class="contentIcon" src="assets/images/logos/korean.png" alt="Korean" data-toggle="tooltip" data-placement="bottom" title="Korean">
                   </div>
                 	<!-- Download Ressume Button -->
                   <!-- FIXME: replace file with updated resume -->
@@ -190,9 +173,8 @@
         	<!-- Start Portfolio Filter -->
         	<div class="mu-portfolio-filter-area">
         		<ul class="mu-simplefilter">
-                      <li class="active" data-filter="all">All</li>
+                      <!-- <li class="active" data-filter="all">All</li> -->
                       <li data-filter="1">Web App</li>
-                      <!-- TODO: add more categories with more projects -->
                   </ul>
         	</div>
 
@@ -372,8 +354,6 @@
 
 	<!-- End main content -->
 
-
-
 	<!-- Start footer -->
 	<footer id="mu-footer" role="contentinfo">
 			<div class="container">
@@ -386,15 +366,6 @@
 	</footer>
 	<!-- End footer -->
 
-
-
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
-
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
 	  <!-- Slick slider -->
     <script type="text/javascript" src="assets/js/slick.min.js"></script>
     <!-- Filterable Gallery js -->
@@ -402,7 +373,7 @@
     <!-- Gallery Lightbox -->
     <script type="text/javascript" src="assets/js/jquery.magnific-popup.min.js"></script>
     <!-- Ajax contact form  -->
-    <script type="text/javascript" src="assets/js/app.js"></script>
+    <!-- <script type="text/javascript" src="assets/js/app.js"></script> -->
 	   <!-- Featured Slider -->
     <script type="text/javascript" src="assets/js/typed.min.js"></script>
     <!-- On scroll JS  -->

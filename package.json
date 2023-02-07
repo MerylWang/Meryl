@@ -1,7 +1,7 @@
 {
   "name": "my-page",
   "version": "1.0.0",
-  "description": "check out my page [here](http://web.mit.edu/wangms/www/)",
+  "description": "check out my page [here](https://merylwang.github.io/Meryl/)",
   "main": "index.js",
   "dependencies": {
     "bootstrap-icons": "^1.0.0-alpha3"
